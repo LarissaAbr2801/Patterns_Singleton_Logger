@@ -7,7 +7,7 @@ public class Main {
     static Scanner in = new Scanner(System.in);
 
     public static void main(String[] args) {
-        Logger logger = Logger.getInstance();
+        LoggerImpl logger = LoggerImpl.getInstance();
         logger.log("Запускаем программу");
         logger.log("Просим пользователя вести входные данные для списка");
 

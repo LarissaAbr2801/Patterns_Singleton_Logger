@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public interface Logger {
+public interface Logger {
+
+    void log(String msg);
 }

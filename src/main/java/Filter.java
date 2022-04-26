@@ -9,7 +9,7 @@ public class Filter {
     }
 
     public List<Integer> filterOut(List<Integer> source) {
-        Logger logger = Logger.getInstance();
+        LoggerImpl logger = LoggerImpl.getInstance();
 
         List<Integer> result = new ArrayList<>();
 

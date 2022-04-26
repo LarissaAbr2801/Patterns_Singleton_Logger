@@ -2,16 +2,16 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.time.format.FormatStyle;
 
-public class Logger {
+public class LoggerImpl implements Logger{
 
-    private static Logger logger;
+    private static LoggerImpl logger;
     protected int num = 1;
 
-    private Logger() {
+    private LoggerImpl() {
     }
 
-    public static Logger getInstance() {
-        if (logger == null) return logger = new Logger();
+    public static LoggerImpl getInstance() {
+        if (logger == null) return logger = new LoggerImpl();
         return logger;
 
     }
